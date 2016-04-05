@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A0F115D1CB37EC100FC62B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F115C1CB37EC100FC62B8 /* AppDelegate.swift */; };
+		8A0F115F1CB37EC100FC62B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F115E1CB37EC100FC62B8 /* ViewController.swift */; };
+		8A0F11621CB37EC100FC62B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0F11601CB37EC100FC62B8 /* Main.storyboard */; };
+		8A0F11651CB37EC100FC62B8 /* HickeyGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F11631CB37EC100FC62B8 /* HickeyGuide.xcdatamodeld */; };
+		8A0F11671CB37EC100FC62B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0F11661CB37EC100FC62B8 /* Assets.xcassets */; };
+		8A0F116A1CB37EC100FC62B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0F11681CB37EC100FC62B8 /* LaunchScreen.storyboard */; };
+		8A0F11751CB37EC100FC62B8 /* HickeyGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F11741CB37EC100FC62B8 /* HickeyGuideTests.swift */; };
+		8A0F11801CB37EC100FC62B8 /* HickeyGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F117F1CB37EC100FC62B8 /* HickeyGuideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A0F11711CB37EC100FC62B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A0F11511CB37EC100FC62B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0F11581CB37EC100FC62B8;
+			remoteInfo = HickeyGuide;
+		};
+		8A0F117C1CB37EC100FC62B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A0F11511CB37EC100FC62B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0F11581CB37EC100FC62B8;
+			remoteInfo = HickeyGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A0F11591CB37EC100FC62B8 /* HickeyGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HickeyGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0F115C1CB37EC100FC62B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A0F115E1CB37EC100FC62B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A0F11611CB37EC100FC62B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A0F11641CB37EC100FC62B8 /* HickeyGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HickeyGuide.xcdatamodel; sourceTree = "<group>"; };
+		8A0F11661CB37EC100FC62B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A0F11691CB37EC100FC62B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A0F116B1CB37EC100FC62B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A0F11701CB37EC100FC62B8 /* HickeyGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HickeyGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0F11741CB37EC100FC62B8 /* HickeyGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HickeyGuideTests.swift; sourceTree = "<group>"; };
+		8A0F11761CB37EC100FC62B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A0F117B1CB37EC100FC62B8 /* HickeyGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HickeyGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0F117F1CB37EC100FC62B8 /* HickeyGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HickeyGuideUITests.swift; sourceTree = "<group>"; };
+		8A0F11811CB37EC100FC62B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A0F11561CB37EC100FC62B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0F116D1CB37EC100FC62B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0F11781CB37EC100FC62B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A0F11501CB37EC100FC62B8 = {
+			isa = PBXGroup;
+			children = (
+				8A0F115B1CB37EC100FC62B8 /* HickeyGuide */,
+				8A0F11731CB37EC100FC62B8 /* HickeyGuideTests */,
+				8A0F117E1CB37EC100FC62B8 /* HickeyGuideUITests */,
+				8A0F115A1CB37EC100FC62B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A0F115A1CB37EC100FC62B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A0F11591CB37EC100FC62B8 /* HickeyGuide.app */,
+				8A0F11701CB37EC100FC62B8 /* HickeyGuideTests.xctest */,
+				8A0F117B1CB37EC100FC62B8 /* HickeyGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A0F115B1CB37EC100FC62B8 /* HickeyGuide */ = {
+			isa = PBXGroup;
+			children = (
+				8A0F115C1CB37EC100FC62B8 /* AppDelegate.swift */,
+				8A0F115E1CB37EC100FC62B8 /* ViewController.swift */,
+				8A0F11601CB37EC100FC62B8 /* Main.storyboard */,
+				8A0F11661CB37EC100FC62B8 /* Assets.xcassets */,
+				8A0F11681CB37EC100FC62B8 /* LaunchScreen.storyboard */,
+				8A0F116B1CB37EC100FC62B8 /* Info.plist */,
+				8A0F11631CB37EC100FC62B8 /* HickeyGuide.xcdatamodeld */,
+			);
+			path = HickeyGuide;
+			sourceTree = "<group>";
+		};
+		8A0F11731CB37EC100FC62B8 /* HickeyGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A0F11741CB37EC100FC62B8 /* HickeyGuideTests.swift */,
+				8A0F11761CB37EC100FC62B8 /* Info.plist */,
+			);
+			path = HickeyGuideTests;
+			sourceTree = "<group>";
+		};
+		8A0F117E1CB37EC100FC62B8 /* HickeyGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A0F117F1CB37EC100FC62B8 /* HickeyGuideUITests.swift */,
+				8A0F11811CB37EC100FC62B8 /* Info.plist */,
+			);
+			path = HickeyGuideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A0F11581CB37EC100FC62B8 /* HickeyGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0F11841CB37EC100FC62B8 /* Build configuration list for PBXNativeTarget "HickeyGuide" */;
+			buildPhases = (
+				8A0F11551CB37EC100FC62B8 /* Sources */,
+				8A0F11561CB37EC100FC62B8 /* Frameworks */,
+				8A0F11571CB37EC100FC62B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HickeyGuide;
+			productName = HickeyGuide;
+			productReference = 8A0F11591CB37EC100FC62B8 /* HickeyGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A0F116F1CB37EC100FC62B8 /* HickeyGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0F11871CB37EC100FC62B8 /* Build configuration list for PBXNativeTarget "HickeyGuideTests" */;
+			buildPhases = (
+				8A0F116C1CB37EC100FC62B8 /* Sources */,
+				8A0F116D1CB37EC100FC62B8 /* Frameworks */,
+				8A0F116E1CB37EC100FC62B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A0F11721CB37EC100FC62B8 /* PBXTargetDependency */,
+			);
+			name = HickeyGuideTests;
+			productName = HickeyGuideTests;
+			productReference = 8A0F11701CB37EC100FC62B8 /* HickeyGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A0F117A1CB37EC100FC62B8 /* HickeyGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0F118A1CB37EC100FC62B8 /* Build configuration list for PBXNativeTarget "HickeyGuideUITests" */;
+			buildPhases = (
+				8A0F11771CB37EC100FC62B8 /* Sources */,
+				8A0F11781CB37EC100FC62B8 /* Frameworks */,
+				8A0F11791CB37EC100FC62B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A0F117D1CB37EC100FC62B8 /* PBXTargetDependency */,
+			);
+			name = HickeyGuideUITests;
+			productName = HickeyGuideUITests;
+			productReference = 8A0F117B1CB37EC100FC62B8 /* HickeyGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A0F11511CB37EC100FC62B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "HickeyTech Inc.";
+				TargetAttributes = {
+					8A0F11581CB37EC100FC62B8 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					8A0F116F1CB37EC100FC62B8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8A0F11581CB37EC100FC62B8;
+					};
+					8A0F117A1CB37EC100FC62B8 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8A0F11581CB37EC100FC62B8;
+					};
+				};
+			};
+			buildConfigurationList = 8A0F11541CB37EC100FC62B8 /* Build configuration list for PBXProject "HickeyGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A0F11501CB37EC100FC62B8;
+			productRefGroup = 8A0F115A1CB37EC100FC62B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A0F11581CB37EC100FC62B8 /* HickeyGuide */,
+				8A0F116F1CB37EC100FC62B8 /* HickeyGuideTests */,
+				8A0F117A1CB37EC100FC62B8 /* HickeyGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A0F11571CB37EC100FC62B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0F116A1CB37EC100FC62B8 /* LaunchScreen.storyboard in Resources */,
+				8A0F11671CB37EC100FC62B8 /* Assets.xcassets in Resources */,
+				8A0F11621CB37EC100FC62B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0F116E1CB37EC100FC62B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0F11791CB37EC100FC62B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A0F11551CB37EC100FC62B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0F11651CB37EC100FC62B8 /* HickeyGuide.xcdatamodeld in Sources */,
+				8A0F115F1CB37EC100FC62B8 /* ViewController.swift in Sources */,
+				8A0F115D1CB37EC100FC62B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0F116C1CB37EC100FC62B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0F11751CB37EC100FC62B8 /* HickeyGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0F11771CB37EC100FC62B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0F11801CB37EC100FC62B8 /* HickeyGuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A0F11721CB37EC100FC62B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0F11581CB37EC100FC62B8 /* HickeyGuide */;
+			targetProxy = 8A0F11711CB37EC100FC62B8 /* PBXContainerItemProxy */;
+		};
+		8A0F117D1CB37EC100FC62B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A0F11581CB37EC100FC62B8 /* HickeyGuide */;
+			targetProxy = 8A0F117C1CB37EC100FC62B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A0F11601CB37EC100FC62B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A0F11611CB37EC100FC62B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A0F11681CB37EC100FC62B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A0F11691CB37EC100FC62B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A0F11821CB37EC100FC62B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A0F11831CB37EC100FC62B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A0F11851CB37EC100FC62B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HickeyGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HickeyTech.HickeyGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A0F11861CB37EC100FC62B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HickeyGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HickeyTech.HickeyGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A0F11881CB37EC100FC62B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HickeyGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HickeyTech.HickeyGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HickeyGuide.app/HickeyGuide";
+			};
+			name = Debug;
+		};
+		8A0F11891CB37EC100FC62B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HickeyGuideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HickeyTech.HickeyGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HickeyGuide.app/HickeyGuide";
+			};
+			name = Release;
+		};
+		8A0F118B1CB37EC100FC62B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HickeyGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HickeyTech.HickeyGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HickeyGuide;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8A0F118C1CB37EC100FC62B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HickeyGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HickeyTech.HickeyGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HickeyGuide;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0F11541CB37EC100FC62B8 /* Build configuration list for PBXProject "HickeyGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0F11821CB37EC100FC62B8 /* Debug */,
+				8A0F11831CB37EC100FC62B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0F11841CB37EC100FC62B8 /* Build configuration list for PBXNativeTarget "HickeyGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0F11851CB37EC100FC62B8 /* Debug */,
+				8A0F11861CB37EC100FC62B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A0F11871CB37EC100FC62B8 /* Build configuration list for PBXNativeTarget "HickeyGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0F11881CB37EC100FC62B8 /* Debug */,
+				8A0F11891CB37EC100FC62B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A0F118A1CB37EC100FC62B8 /* Build configuration list for PBXNativeTarget "HickeyGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0F118B1CB37EC100FC62B8 /* Debug */,
+				8A0F118C1CB37EC100FC62B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A0F11631CB37EC100FC62B8 /* HickeyGuide.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A0F11641CB37EC100FC62B8 /* HickeyGuide.xcdatamodel */,
+			);
+			currentVersion = 8A0F11641CB37EC100FC62B8 /* HickeyGuide.xcdatamodel */;
+			path = HickeyGuide.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A0F11511CB37EC100FC62B8 /* Project object */;
+}
